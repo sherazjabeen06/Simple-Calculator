@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Roboto Mono";
+    background: url(https://wallpaperaccess.com/full/731628.jpg);
+}
+
+.heading
+{
+	
+	color: #ff0066;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 20px;
+	text-align: center;
+	font-weight: bolder;
+	
+}
+#calculator {
+    margin: auto;
+    
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 3em #cdcdcd;
+}
+
+header {
+    padding: 20px;
+    background: #ff0066;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+}
+
+header #detail {
+    font-size: 1em;
+}
+
+header #result {
+    font-size: 2em;
+}
+
+header span {
+    margin-left: .5em;
+    float: left;
+}
+
+main {
+    height: 100%;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: auto;
+}
+
+main button {
+    font-size: 1.2em;
+    font-family: "Roboto Mono";
+    float: left;
+    width: 25%;
+    border: 0;
+    padding: 1em;
+    cursor: pointer;
+    background: white;
+}
+
+main button:hover {
+    background: #cdcdcd;
+}
+
+main button:focus {
+    outline: none;
+}
+
+main button:active {
+    box-shadow: 0 0 10px #cdcdcd;
+}
